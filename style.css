@@ -8,10 +8,56 @@ body {
   font: 18px 'Roboto', sans-serif;
 }
 
+.text-off-white {
+  color: #E5E7EB;
+}
+
+.section-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding:100px 400px;
+}
+
+.section-quote .quote {
+  color: #1F2937;
+  font: italic 300 36px 'Roboto', sans-serif;
+}
+
+.section-quote p {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.cta {
+  display: flex;
+  margin: 100px auto;
+  width: 66%;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: #fff;
+}
+
+.heading-cta {
+  font-weight: bold;
+}
+
+.cta button {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #3882F6;
+  padding: 10px 25px;
+  color: white;
+  font-weight: bold;
+}
+
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #1F2937;
-  color: #E5E7EB;
 }
